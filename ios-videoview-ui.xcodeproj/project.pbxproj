@@ -189,6 +189,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = UE5DCQPTRB;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					BC39F31F1DF3D65000070AF6 = {
 						CreatedOnToolsVersion = 8.0;
@@ -454,6 +459,7 @@
 				BC39F32B1DF3D65000070AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC39F32C1DF3D65000070AF6 /* Build configuration list for PBXNativeTarget "ios-videoview-uiTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +468,7 @@
 				BC39F32E1DF3D65000070AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

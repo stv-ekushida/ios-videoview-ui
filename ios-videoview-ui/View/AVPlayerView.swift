@@ -11,7 +11,7 @@ import AVFoundation
 
 class AVPlayerView: UIView {
     
-    var player: AVPlayer {
+    var player: AVPlayer? {
         get {
             let layer = self.layer as! AVPlayerLayer
             return layer.player!
